@@ -39,7 +39,7 @@ Password managers also often include a function to generate strong, random passw
 Such passwords would be extremely difficult for a human to remember, but the use of the password manager makes that unnecessary.
 (Password managers also typically integrate with most Web browsers, and can generate and store strong passwords for websites 
 and online services). You are required to get approval from the Director of Programming for the use of any Password Management 
-Software programs to be certain they meet CypherWorx standards for security and proper password storage.
+Software programs to be certain they meet employer standards for security and proper password storage.
 
 When it is necessary to securely transmit data electronically or ship it on physical media, encrypted files and their passwords 
 or passphrases should never be included in the same physical package or email message. Ideally, and whenever practicable, 
