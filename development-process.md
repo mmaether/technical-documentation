@@ -3,8 +3,6 @@ This article outlines how our organization handles software development. As we f
 
 ***
 
-[TOC]
-
 ## Scrum ##
 Our organization follows the agile approach to software development with Scrum. Scrum lets us break our work into actions that can be completed within timeboxed iterations, called sprints (typically two-weeks).
 
@@ -108,13 +106,7 @@ Trim trailing whitespace:
 ***
 
 ## Code Style Guides ##
-To ensure that everyone working on CollaborNation programs consistently, we've created style guides by which programmers should follow. We aren't rigid about the style guide, we won't reject code because it's missing an extra space, but these are documents with good best practices that will help us maintain code easier. Do your best to follow these.
-
-- [PHP Style Guide](https://bitbucket.org/cypherworx/cypher-git/wiki/PHP%20Style%20Guide)
-- [PHP Comment Standards](https://bitbucket.org/cypherworx/cypher-git/wiki/PHP%20Comment%20Standards)
-- [HTML](https://bitbucket.org/cypherworx/cypher-git/wiki/HTML%20Style%20Guide)
-- [CSS](https://bitbucket.org/cypherworx/cypher-git/wiki/CSS%20Style%20Guide)
-- JavaScript - To be completed
+To ensure that everyone working on the project programs consistently, we've created style guides by which programmers should follow. We aren't rigid about the style guide, we won't reject code because it's missing an extra space, but these are documents with good best practices that will help us maintain code easier. Do your best to follow these.
 
 ***
 
@@ -136,35 +128,13 @@ Please follow the [Code Review Checklist](https://docs.google.com/spreadsheets/d
 - Language readability
 - Page speed
 
-Accessibility is very, very important for web development. Our organization provides training for organizations, and a requirement is to make sure that disabilities do not prevent someone from taking that training. Code will not be uploaded until it passes all accessibility checks. Read our accessibility wiki page for more information. You can also view our [VPAT submission](https://support.cypherworx.com/support/solutions/articles/4000114796) which must be maintained.
-
-We would like to make improvements to our QA and review process. Room for improvement includes adding unit tests, continuous integration, linting, and automatic code deployment. When these features are added to our process this section will also be updated.
+Accessibility is very, very important for web development. Our organization provides training for organizations, and a requirement is to make sure that disabilities do not prevent someone from taking that training. Code will not be uploaded until it passes all accessibility checks. Read our accessibility wiki page for more information.
 
 ***
 
 ## Bug Tracking ##
 
 The VP of Programming will work with the support team to identify and track bugs. When bugs get reported, they will be added to Jira's backlog, with which bugs will be assigned to be fixed at the start of each sprint. Unless a critical bug is found (one that prevents the use of the entire site, for example), all bugs will be assigned at the beginning of the sprint.
-
-***
-
-## Changelog ##
-
-When code has been completed and uploaded to live, the VP of Programming will update the [changelog](https://collabornation.net/changelog) in a bulleted list. This changelog is used internally and as record keeping to communicate the changes on the site. There really isn't a proper order or guide to using this, so use your best discretion.
-
-***
-
-## Show and Tell ##
-
-We want to make sure all the programmers here take time to learn new concepts on their own. Every two weeks the programming department will take some time aside and have one person present something interesting about programming or web development. This is primarily to spark new creative ideas for the team that not all of us may have thought about. It could be anything from user experience (UX), web standards, server configurations, accessibility, articles on new concepts, really anything web or technology-related.
-
-It does not need to take up a full hour, it may only take a few minutes to present and then there's a discussion. This isn't meant to be anything to spend a lot of time preparing for, but more of an open discussion of new things on the web.
-
-Previously we also had a Brian Teach session that allowed Brian to demo programming concepts he understands with the rest of the team. That can now be done during Show and Tell depending on if Brian would like to do so.
-
-* [List of Brian Teaches](https://bitbucket.org/cypherworx/cypher-git/wiki/Brian%20Teach)
-* [Brian Teach Ideas](https://docs.google.com/spreadsheets/d/1MNqj1w1LXeWQ_E__fbhirFlipaYYkmDyftJAxc9tUNc/edit#gid=0)
-
 
 ***
 
