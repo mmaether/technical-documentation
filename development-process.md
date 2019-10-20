@@ -1,16 +1,14 @@
-# Development Process #
+# Development Process
 This article outlines how our organization handles software development. As we follow already established software development processes, I will shamelessly take some language directly from its Wikipedia page, so if you want to learn more then please read the linked Wiki pages.
 
-***
-
-## Scrum ##
+## Scrum
 Our organization follows the agile approach to software development with Scrum. Scrum lets us break our work into actions that can be completed within timeboxed iterations, called sprints (typically two-weeks).
 
-![scrum.png](https://bitbucket.org/repo/daRMR65/images/1160742095-scrum.png)
+![Scrum workflow](images/scrum.png)
 
 Source: [scrum.org](https://s3.amazonaws.com/scrumorg-website-prod/drupal/2016-06/ScrumFramework_17x11.pdf)
 
-### Sprint Planning ###
+### Sprint Planning
 
 At the beginning of a sprint, the scrum team holds a sprint planning event to:
 
@@ -21,11 +19,11 @@ At the beginning of a sprint, the scrum team holds a sprint planning event to:
 
 The agreed upon tasks will be added and organized in Jira.
 
-### Daily Scrum ###
+### Daily Scrum
 
 Each morning the team will meet for a few minutes to discuss their current tasks, determine if there are any blocks, and find ways to ensure development continues smoothly.
 
-### Sprint Review and Retrospective ###
+### Sprint Review and Retrospective
 
 At the end of a sprint, the team holds an event to review the work completed and to reflect on it.
 
@@ -42,13 +40,11 @@ At the sprint retrospective, the team:
 * What went well during the sprint? 
 * What could be improved in the next sprint?
 
-***
-
 ## Jira Workflow
 
 Development is all tracked in Jira. 
 
-![workflow.png](https://bitbucket.org/repo/daRMR65/images/3751655452-workflow.png)
+![Jira Workflow](images/workflow.png)
 
 ### To Do
 
@@ -80,9 +76,6 @@ Once code passes testing, QA will move the issue to Ready For Review and assign 
 
 When all development is approved and the issue reaches Done, programming will keep the commit ID and merge it with production. Then it can be uploaded to live.
 
-
-***
-
 ## IDEs and Text Editors ##
 
 We do not restrict programmers on which IDE to use for development. We do however want to make sure that when writing code to always use **2 spaces** instead of tabs and **trim all whitespace**. Please make those adjustments in your IDE/text editor of choice for consistent code.
@@ -103,14 +96,11 @@ Trim trailing whitespace:
     2. The only entry should be Trim Trailing and save, click on Modify.
     3. Change the shortcut to be Ctrl+S
 
-***
+## Code Style Guides
 
-## Code Style Guides ##
 To ensure that everyone working on the project programs consistently, we've created style guides by which programmers should follow. We aren't rigid about the style guide, we won't reject code because it's missing an extra space, but these are documents with good best practices that will help us maintain code easier. Do your best to follow these.
 
-***
-
-## Code Review ##
+## Code Review
 
 Currently code review is done manually. Anytime a programmer completes a project, they'll push their code to the repo. We will then notify another programmer to review the code, which includes looking at the code itself for quality as well as its functionality.
 
@@ -130,13 +120,9 @@ Please follow the [Code Review Checklist](https://docs.google.com/spreadsheets/d
 
 Accessibility is very, very important for web development. Our organization provides training for organizations, and a requirement is to make sure that disabilities do not prevent someone from taking that training. Code will not be uploaded until it passes all accessibility checks. Read our accessibility wiki page for more information.
 
-***
+## Bug Tracking
 
-## Bug Tracking ##
+Bug tracking is maintained in ticketing software. Communication will take place between the support team and programming where bugs are reported to programming for the bugs to be added to the backlog and tackled based on priority. If the bug is critical it may interrupt and be added to the current sprint, otherwise it will be assigned at the beginning of the next sprint.
 
-The VP of Programming will work with the support team to identify and track bugs. When bugs get reported, they will be added to Jira's backlog, with which bugs will be assigned to be fixed at the start of each sprint. Unless a critical bug is found (one that prevents the use of the entire site, for example), all bugs will be assigned at the beginning of the sprint.
-
-***
-
-## Resources ##
+## Resources
 https://en.wikipedia.org/wiki/Scrum_(software_development)
